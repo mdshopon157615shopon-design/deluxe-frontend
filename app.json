@@ -1,5 +1,10 @@
 {
   "expo": {
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "name": "DeluxeFrontend",
     "slug": "DeluxeFrontend",
     "version": "1.0.0",
@@ -12,9 +17,9 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundImage": "./assets/adaptive-icon.png",
+        "monochromeImage": "./assets/adaptive-icon.png"
       }
     },
     "web": {
