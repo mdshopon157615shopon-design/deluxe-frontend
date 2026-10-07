@@ -1,20 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import LiveStreamScreen from './LiveStreamScreen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <LiveStreamScreen 
+      route={{
+        params: {
+          userId: 'shopon_123',
+          userName: 'Shopon',
+          roomId: 'deluxe_room_101'
+        }
+      }}
+      navigation={{
+        goBack: () => console.log('Exit clicked')
+      }}
+    />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
