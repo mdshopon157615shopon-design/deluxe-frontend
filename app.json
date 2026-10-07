@@ -1,29 +1,15 @@
 {
   "expo": {
+    "name": "Deluxe Frontend",
+    "slug": "deluxe-frontend",
+    "version": "1.0.0",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
-    "name": "DeluxeFrontend",
-    "slug": "DeluxeFrontend",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundImage": "./assets/adaptive-icon.png",
-        "monochromeImage": "./assets/adaptive-icon.png"
-      }
-    },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "metro"
     }
   }
 }
