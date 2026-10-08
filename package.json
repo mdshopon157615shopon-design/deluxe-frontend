@@ -9,7 +9,7 @@
     "expo": "^57.0.27",
     "expo-router": "^57.0.25",
     "react-dom": "19.2.3",
-    "react-native": "^0.87.1",
+    "react-native": "0.86.3",
     "react-native-web": "^0.21.2",
     "serve": "^14.2.1"
   }
