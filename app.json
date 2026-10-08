@@ -1,1 +1,15 @@
-{ "expo": { "name": "Deluxe Frontend", "slug": "deluxe-frontend", "version": "1.0.0", "platforms": [ "ios", "android", "web" ], "web": { "bundler": "metro" } } }
+{
+  "expo": {
+    "name": "Deluxe Frontend",
+    "slug": "deluxe-frontend",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
