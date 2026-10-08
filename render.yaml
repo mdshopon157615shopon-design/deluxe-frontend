@@ -2,5 +2,5 @@ services:
   - type: web
     name: deluxe-frontend
     env: static
-    buildCommand: npm install && npx expo export --platform web
+    buildCommand: npm install -g expo-cli && npm install && npx expo export --platform web
     staticPublishPath: dist
