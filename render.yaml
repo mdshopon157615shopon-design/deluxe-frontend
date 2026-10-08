@@ -2,5 +2,5 @@ services:
   - type: web
     name: deluxe-frontend
     env: static
-    buildCommand: npm install && npx expo export --platform web
-    staticPublishPath: dist
+    buildCommand: npm install --legacy-peer-deps && npx expo export --platform web
+    staticPublishPath: ./dist
