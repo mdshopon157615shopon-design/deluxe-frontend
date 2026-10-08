@@ -1,6 +1,16 @@
 services:
   - type: web
     name: deluxe-frontend
-    env: static
-    buildCommand: npm install --legacy-peer-deps && npx expo export --platform web
-    staticPublishPath: ./dist
+    env: node
+    region: oregon
+    buildCommand: npm install && npm run build:web
+    startCommand: npm run serve
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: EXPO_PUBLIC_API_URL
+        value: https://deluxe-backend-1.onrender.com
+      - key: PORT
+        value: 3000
+    healthCheckPath: /
+    autoDeploy: true
