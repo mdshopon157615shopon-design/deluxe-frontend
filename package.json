@@ -7,6 +7,7 @@
   "dependencies": {
     "@expo/metro-config": "^57.0.13",
     "expo": "^57.0.27",
+    "expo-camera": "~57.0.6",
     "expo-router": "^57.0.25",
     "react-dom": "^19.3.0",
     "react-native": "0.86.3",
